@@ -1,0 +1,155 @@
+body {
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    line-height: 1.6;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    background-color: #fff;
+    margin: 1rem;
+}
+
+.card-text {
+    margin-left: 1rem;
+    color: #555;
+    font-size: 1rem;
+}
+
+.h4 {
+    color: #666;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+img {
+    height: 3rem;
+}
+
+.card-form {
+    border: 2px dashed #ccc;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    background-color: #f9f9f9;
+    margin: 1rem;
+    display: block;
+    align-content: center;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.card-form.drag-over {
+    background-color: #e0f7fa; /* Light blue background on drag over */
+    border-color: #333; /* Darker border on drag over */
+}
+.upload-icon {
+    width: 80px; /* Increase width */
+    height: 80px; /* Increase height */
+    color: #666; /* Optional: adjust color */
+    margin-bottom: 1rem; /* Adjust spacing */
+}
+.card2 {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    background-color: #fff;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card2-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #555;
+}
+
+.card2-list {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: royalblue;
+    cursor: pointer;
+}
+
+.list-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.view-all {
+    font-size: 1rem;
+    color: royalblue;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.view-all:hover {
+    color: darkblue;
+}
+
+/* Card Content Container */
+.card2-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+/* Supported Formats Section */
+.supported-formats {
+    color: #666;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+/* File Display Section */
+.card2-file {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.75rem; /* 12px */
+    transition: all 0.2s ease;
+}
+
+/* Icon Styling */
+.card-file-icon {
+    color: #666;
+    font-size: 1.25rem; /* 20px */
+    display: flex;
+    align-items: center;
+}
+
+/* Status Text */
+.converted {
+    color: #666;
+    font-weight: 500;
+}
+
+/* JSON Link Styling */
+.json {
+    color:royalblue;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.json:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
