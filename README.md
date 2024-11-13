@@ -5,7 +5,7 @@ This project is a comprehensive document processing application that converts va
 
 ## Architecture
 <div align="center">
-  <img src="architecture.gif" alt="Architecture Diagram" width="800"/>
+  <img src="assets/architecture.gif" alt="Architecture Diagram" width="800"/>
 </div>
 
 The application follows a modern, microservices-based architecture:
@@ -50,7 +50,19 @@ The application follows a modern, microservices-based architecture:
 1. Java 17 or higher
 2. Node.js and npm
 3. Maven
-4. LLM API access
+4. Docker and Docker Compose
+5. LLM API access
+
+### Docker Setup
+
+Start the PostgreSQL database using Docker Compose:
+```bash
+# Start the services
+docker-compose up -d
+
+# To stop the services
+docker-compose down
+```
 
 ### Installing Tesseract OCR
 
