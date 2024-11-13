@@ -5,7 +5,7 @@ This project is a comprehensive document processing application that converts va
 
 ## Architecture
 <div align="center">
-  <img src="assets/architecture.gif" alt="Architecture Diagram" width="800"/>
+  <img src="architecture.gif" alt="Architecture Diagram" width="800"/>
 </div>
 
 The application follows a modern, microservices-based architecture:
