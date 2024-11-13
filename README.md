@@ -1,10 +1,18 @@
 # Document to JSON Converter
 
+## Overview
+This project is a comprehensive document processing application that converts various file formats (PDF, DOCX, Images) into structured JSON data. It leverages OCR technology to extract text from images and documents, and uses Large Language Models for intelligent text processing and structuring. The application features a modern, user-friendly interface with real-time processing feedback and supports multiple file formats.
+
+## Architecture
 <div align="center">
   <img src="architecture.gif" alt="Architecture Diagram" width="800"/>
 </div>
 
-A full-stack application that converts various document formats (PDF, DOCX, Images) into structured JSON format using OCR technology and Large Language Models.
+The application follows a modern, microservices-based architecture:
+- **Frontend**: React.js application handling user interactions and file uploads
+- **Backend**: Spring Boot service managing file processing and conversions
+- **LLM Integration**: Llama AI for intelligent text processing
+- **Database**: PostgreSQL (Dockerized) for data persistence
 
 ## 🌟 Features
 
@@ -17,7 +25,7 @@ A full-stack application that converts various document formats (PDF, DOCX, Imag
 - Interactive drag-and-drop interface
 - JSON preview with typewriter effect
 - Download converted JSON
-
+- File history tracking
 
 ## 🏗️ Technology Stack
 
